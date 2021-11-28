@@ -1,0 +1,26 @@
+Source: stsbl-iserv-stadthh-wlansg
+Section: misc
+Priority: optional
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper-compat (= 13),
+  debhelper-sequence-iserv,
+  debhelper-sequence-stsbl,
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+
+Package: stsbl-iserv-stadthh-wlansg
+Architecture: all
+Depends: ${misc:Depends},
+  ${perl:Depends},
+  stsbl-iserv-host-config,
+Description: Konfiguration von WLAN-SG (Stadt Hamburg) für IServ
+ Erlaubt die Zuweisung und Verteilung der Zertifikate von WLAN-SG (WLAN für
+ Schulgeräte in Hamburg).
+ .
+ In der Geräteverwaltung können in zwei neue Felder die ID (Dateiname eines
+ Zertifikates) und das Passwort für das Zertiifikate hinterlegt werden.
+ .
+ Die Zertifikate werden von einem Mitglied der Admins-Gruppe auf der
+ Windows-Freigabe \iserv\appdata\stadthh-wlansg-setup\certificates mit der ID
+ als Dateiname hinterlegt.
+Tag: suite::iserv, suite::iserv:portal, role::plugin, status::highlighted
