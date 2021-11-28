@@ -7,6 +7,7 @@ Build-Depends: debhelper-compat (= 13),
   dh-sequence-stsbl,
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-stadthh-wlansg
 Architecture: all
