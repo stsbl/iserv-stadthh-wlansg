@@ -2,7 +2,7 @@ host_config:
     fields:
         stadthh_wlansg_certificate_id:
             description: RADIUS certificate ID
-            help_text: The Certificate must be placed in \\iserv\appdata\stadthh-wlansg-setup\certificates\%ID%.pfx. The %ID% must be replaced by the ID given here.
+            help_text: The Certificate must be placed in \\iserv\appdata\stsbl-stadthh-wlansg\certificates\%ID%.pfx. The %ID% must be replaced by the ID given here.
             type: text
             group: WLAN-SG (Stadt Hamburg)
         stadthh_wlansg_certificate_password:
