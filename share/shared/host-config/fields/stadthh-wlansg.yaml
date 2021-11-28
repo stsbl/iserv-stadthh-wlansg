@@ -6,7 +6,7 @@ host_config:
             type: text
             group: WLAN-SG (Stadt Hamburg)
         stadthh_wlansg_certificate_password:
-            description: RADIUS Certificate password
+            description: RADIUS certificate password
             help_text: The password for the given RADIUS certificate.
             type: password
             group: WLAN-SG (Stadt Hamburg)

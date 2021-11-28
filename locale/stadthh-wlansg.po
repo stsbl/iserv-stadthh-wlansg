@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: translations/messages.php
+msgctxt "host-config-description"
+msgid "RADIUS certificate ID"
+msgstr "RADIUS-Zertifikats-ID"
+
+#: translations/messages.php
+msgctxt "host-config-description"
+msgid "RADIUS certificate password"
+msgstr "RADIUS-Zertifikats-Passwort"
+
+#: translations/messages.php
+msgctxt "host-config-help-text"
+msgid ""
+"The Certificate must be placed in \\iserv\\appdata\\stadthh-wlansg-setup"
+"\\certificates\\%ID%.pfx. The %ID% must be replaced by the ID given here."
+msgstr ""
+"Das Zertifikat muss unter \\iserv\\appdata\\stadthh-wlansg-setup"
+"\\certificates\\%ID%.pfx abgelegt werden. Das %ID% muss durch die hier "
+"eingegebene ID ersetzt werden."
+
+#: translations/messages.php
+msgctxt "host-config-help-text"
+msgid "The password for the given RADIUS certificate."
+msgstr "Das Passwort für das angegeben RADIUS-Zertifikat."
+
+#: translations/messages.php
+msgctxt "host-config-group"
+msgid "WLAN-SG (Stadt Hamburg)"
+msgstr "WLAN-SG (Stadt Hamburg)"
