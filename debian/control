@@ -12,7 +12,9 @@ Package: stsbl-iserv-stadthh-wlansg
 Architecture: all
 Depends: ${misc:Depends},
   ${perl:Depends},
+  iserv-deploy,
   stsbl-iserv-host-config,
+  winst-stsbl-stadthh-wlansg,
 Description: Konfiguration von WLAN-SG (Stadt Hamburg) für IServ
  Erlaubt die Zuweisung und Verteilung der Zertifikate von WLAN-SG (WLAN für
  Schulgeräte in Hamburg).
