@@ -24,6 +24,6 @@ Description: Konfiguration von WLAN-SG (Stadt Hamburg) für IServ
  Zertifikates) und das Passwort für das Zertiifikat hinterlegt werden.
  .
  Die Zertifikate werden von einem Mitglied der Admins-Gruppe auf der
- Windows-Freigabe \\iserv\appdata\stadthh-wlansg-setup\certificates mit der ID
- als Dateiname hinterlegt.
+ Windows-Freigabe \\iserv\appdata\stsb-stadthh-wlansg-setup\certificates mit
+ der ID als Dateiname hinterlegt.
 Tag: suite::iserv, suite::iserv:portal, role::plugin, status::highlighted
