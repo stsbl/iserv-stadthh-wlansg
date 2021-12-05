@@ -18,17 +18,17 @@ msgstr "RADIUS-Zertifikats-Passwort"
 #: translations/messages.php
 msgctxt "host-config-help-text"
 msgid ""
-"The Certificate must be placed in \\iserv\\appdata\\stsbl-stadthh-wlansg"
+"The Certificate must be placed in \\\\iserv\\appdata\\stsbl-stadthh-wlansg"
 "\\certificates\\%ID%.pfx. The %ID% must be replaced by the ID given here."
 msgstr ""
-"Das Zertifikat muss unter \\iserv\\appdata\\stsbl-stadthh-wlansg"
+"Das Zertifikat muss unter \\\\iserv\\appdata\\stsbl-stadthh-wlansg"
 "\\certificates\\%ID%.pfx abgelegt werden. Das %ID% muss durch die hier "
-"eingegebene ID ersetzt werden."
+"eingegebenen ID ersetzt werden."
 
 #: translations/messages.php
 msgctxt "host-config-help-text"
 msgid "The password for the given RADIUS certificate."
-msgstr "Das Passwort für das angegeben RADIUS-Zertifikat."
+msgstr "Das Passwort für das angegebene RADIUS-Zertifikat."
 
 #: translations/messages.php
 msgctxt "host-config-group"
